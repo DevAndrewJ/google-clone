@@ -16,7 +16,7 @@ html {
     align-items: center;
 }
 .navigationBar {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin-right: 1.5rem;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -25,11 +25,31 @@ html {
     margin-right: 1rem;
     text-decoration: none;
     margin-left: 0.8rem;
-    color: black;
+    color: #000000DE;
+}
+
+.navigationBar a:hover{
+    text-decoration: underline;
+
+}
+
+.bi-grid-3x3-gap-fill {
+    color: #5f6368;
+    font-size: 2rem;
+}
+
+.bi-search{
+    font-size: 1.5rem;
+    color: grey;
+
+}
+
+.bi-mic{
+    font-size: 2rem;
+    color: #003f88;
 }
 
 .login_btn {
-    
     width: 10.8rem;
     height: 3.5rem;
     border-radius: 0.5rem;
@@ -57,18 +77,34 @@ html {
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
+}
 
+.search__baby {
+    justify-content: space-around;
+    width: 55%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    border: solid 0.1rem #e9ecef;
+    border-radius: 2.5rem;
+}
+
+.search__baby:hover{
+    box-shadow: 0.2rem 0.2rem #e9ecef; 
 }
 
 #Search {
-    width: 60rem;
-    height: 3.8rem;
-    margin-bottom: 2rem;
-    border: solid 0.1rem #e9ecef;
-    border-radius: 1.6rem;
+    align-self: center;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    height: 4.8rem;
+    border: none;
 }
 
 .btn_container {
+    margin-top: 1.5rem;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -84,11 +120,12 @@ html {
 .btn {
     width: 14rem;
     height: 3.5rem;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
     border-radius: 0.7rem;
     border: none;
     background-color: #f8f9fa;
-    color: #000;
+    color: #3c4043;
 }
 
 .btn:hover {
@@ -118,15 +155,27 @@ html {
     height: 8vh;
     background-color: #e9ecef;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
     align-items: center;
 }
+
+.footer__nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
 .footer__nav a{
     margin-right: 1rem;
     margin-left: 2rem;
     text-decoration: none;
-    color: #000;
-    font-family: Arial, Helvetica, sans-serif;
+    color: #70757a;
 }
 
+.footer__nav a:hover {
+    text-decoration: underline;
+}

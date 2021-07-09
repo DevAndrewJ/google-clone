@@ -3,6 +3,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
     <link rel="stylesheet" href="../css/desktop.css" media="screen and (min-width: 900px)">
     <link rel="stylesheet" href="../css/table.css">
     <link rel="stylesheet" href="../css/style.css">
@@ -13,8 +15,8 @@
     <header class="header">
         <nav class="navigationBar">
             <a href="">Gmail</a>
-            <a href="">Imágenes</a>
-            <a href="">App</a>
+            <a href="">Imágenes</a>            
+            <a href=""><i class="bi bi-grid-3x3-gap-fill"></i></a>            
             <button class="login_btn">Login</button>
         </nav>
     </header>
@@ -26,7 +28,12 @@
             </figure>
         </div>        
         <div class="search_bar">
-            <input type="Search" name="Search" id="Search">
+            <div class="search__baby">
+                <i class="bi bi-search"></i>
+                <input type="Search" name="Search" id="Search" >
+                <i class="bi bi-mic"></i>
+            </div>
+            
         </div>
         <section class="btn_container">
             <div class="div_btn_container">
@@ -40,13 +47,13 @@
         </section>
     </main>
     <footer class="footer">
-        <nav class="footer__nav"> 
+        <nav class="footer__nav nav_start"> 
             <a href="">About Google</a>
             <a href=""> Publish</a>
             <a href=""> Bussiness</a>
             <a href="">How its work the search</a>
         </nav>
-        <nav class="footer__nav">
+        <nav class="footer__nav nav_end">
             <a href="">Privacy</a>
             <a href="">Condition</a>
             <a href="">Preferece</a>
